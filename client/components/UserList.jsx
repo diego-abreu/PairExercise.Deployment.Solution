@@ -7,12 +7,12 @@ export default ({ users }) => (
       Here's a list of hellow {users.length} completely fictitious people:
     </p>
 
-    {/* <table className='table'>
+    <table className='table'>
       <tbody>
         {users.map((u) => (
           <User {...u} key={u.id} />
         ))}
       </tbody>
-    </table> */}
+    </table>
   </div>
 );
